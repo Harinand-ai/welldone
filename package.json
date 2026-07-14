@@ -1,0 +1,15 @@
+{
+  "name": "welldone-laundry",
+  "version": "1.0.0",
+  "description": "Well Done Laundry Management & Billing System - Yes Yes Group",
+  "private": true,
+  "scripts": {
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "test": "npm run test:backend && npm run test:frontend"
+  }
+}
